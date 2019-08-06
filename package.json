@@ -1,0 +1,28 @@
+{
+  "name": "integration-vs-unit-tests-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Steven Bassett <steven.bassett@airbnb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^8.0.7",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "./test-setup.js"
+    ]
+  }
+}
